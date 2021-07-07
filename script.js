@@ -6,7 +6,7 @@ $(".stay").click(function() {
     $(".pick").text("Yay to staying in! Now, would you rather watch a movie or go to bed? *Click the image*");
     $(".concert").hide();
     $(".stay").hide();
-    $("body").css("background-color", "yellow");
+    $("body").css("background-color", "orange");
 
 });
 $(".concert").click(function() {
