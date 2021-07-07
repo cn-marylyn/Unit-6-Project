@@ -15,6 +15,7 @@ $(".concert").click(function() {
     $(".pick").text("Yay to concerts! Which concert would you like to attend? Kehlani or Jessie Reyez? *Click the image*");
     $(".stay").hide();
     $(".concert").hide();
+        $("body").css("background-color", "lightpink");
 });
 $(".kehlani").click(function() {
     $(".jessie").hide();
